@@ -1,0 +1,104 @@
+{
+    "uuid": "13D012E4-9C66-4092-BA1A-1445919DB0C3",
+    "type": "Homework",
+    "title": "Question Bank",
+    "set": "Homework",
+    "number": "1",
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "credit": 100,
+            "startDate": "2021-01-01T00:00:01",
+            "endDate": "2040-12-31T23:59:59"
+        }
+    ],
+    "zones": [
+        {
+            "title": "Electrostatics",
+            "questions": [
+                {"id": "twoSpheresDistance", "points": 1,"maxPoints": 3},
+                {"id": "twoSpheresAddCharge", "points": 1, "maxPoints": 3},
+                {"id": "particlesOnIncline", "points": 1,"maxPoints": 6},
+                {"id": "particleElectricField", "points": 1,"maxPoints": 3},
+                {"id": "electronPerpendicularElectricFieldSymbolic", "points": 1,"maxPoints": 1},
+                {"id": "electronPerpendicularElectricField", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 05/OSUPv2p5_48", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 05/OSUPv2p5_51", "points": 1,"maxPoints": 1},
+                {"id": "OSUP/volume 2/Chapter 05/OSUPv2p5_53", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 05/OSUPv2p5_58", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 05/OSUPv2p5_70", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 05/OSUPv2p5_78", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 05/OSUPv2p5_94", "points": 1,"maxPoints": 3},
+                {"id": "dipoleElectricField", "points": 1,"maxPoints": 3}
+            ]
+        },
+        {
+            "title": "Gauss's Law",
+            "questions": [
+                {"id": "OSUP/volume 2/Chapter 06/OSUPv2p6_20", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 06/OSUPv2p6_40", "points": 1, "maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 06/OSUPv2p6_44", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 06/OSUPv2p6_51", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 06/OSUPv2p6_70", "points": 1,"maxPoints": 3}
+            ]
+        },
+        {
+            "title": "Electric Potential",
+            "questions": [
+                {"id": "OSUP/volume 2/Chapter 07/OSUPv2p7_36", "points": 1, "maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 07/OSUPv2p7_52", "points": 1,"maxPoints": 3},
+                {"id": "twoParticlesFindPotential", "points": 1,"maxPoints": 6}
+            ]
+        },
+        {
+            "title": "Capacitance",
+            "questions": [
+                {"id": "OSUP/volume 2/Chapter 08/OSUPv2p8_07", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 08/OSUPv2p8_19", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 08/OSUPv2p8_25", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 08/OSUPv2p8_31", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 08/OSUPv2p8_40", "points": 1,"maxPoints": 3},
+                {"id": "equivalentCapacitance", "points": 1,"maxPoints": 6},
+                {"id": "equivalentCapacitance2", "points": 1,"maxPoints": 6},
+                {"id": "equivalentCapacitance3", "points": 1,"maxPoints": 6}
+            ]
+        },
+        {
+            "title": "Current and Resistance",
+            "questions": [
+                {"id": "OSUP/volume 2/Chapter 09/OSUPv2p9_36", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 09/OSUPv2p9_51", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 09/OSUPv2p9_56", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 09/OSUPv2p9_58", "points": 1,"maxPoints": 3}
+            ]
+        },
+        {
+            "title": "Circuits",
+            "questions": [
+                {"id": "OSUP/volume 2/Chapter 10/OSUPv2p10_28", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 10/OSUPv2p10_30", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 10/OSUPv2p10_38", "points": 1,"maxPoints": 3},
+                {"id": "equivalentResistance", "points": 1,"maxPoints": 6},
+                {"id": "resistorCapacitorCircuit1", "points": 1,"maxPoints": 3}
+            ]
+        },
+        {
+            "title": "Magnetism",
+            "questions": [
+                {"id": "OSUP/volume 2/Chapter 11/OSUPv2p11_21", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 11/OSUPv2p11_51", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 12/OSUPv2p12_23", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 12/OSUPv2p12_50", "points": 1,"maxPoints": 3}
+            ]
+        },
+        {
+            "title": "Inductance",
+            "questions": [
+                {"id": "OSUP/volume 2/Chapter 13/OSUPv2p13_24", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 14/OSUPv2p14_15", "points": 1,"maxPoints": 3},
+                {"id": "OSUP/volume 2/Chapter 14/OSUPv2p14_68", "points": 1,"maxPoints": 3}
+            ]
+        }
+    ],
+    "text": "<p>This assignment includes all the questions available in the template course Physics: E&M. You can use these questions to create separate assessments in your course.</p>"
+}

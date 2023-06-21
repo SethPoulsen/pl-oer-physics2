@@ -1,0 +1,32 @@
+<pl-question-panel>
+<p>
+Point charges $q_1 = {{params.q1}}\rm\ \mu C$ and $q_2 = {{params.q2}}\rm\ \mu C$ are placed ${{params.d}}\rm\ m$ apart.
+</p>
+<p>
+What is the force on a third charge $q_3 = {{params.q3}}\rm\ \mu C$ placed midway between $q_1$ and $q_2$?
+</p>
+</pl-question-panel>
+
+<p>Magnitude:</p>
+<p>
+<pl-number-input answers-name="part1_ans" label="$F=$" suffix="$\rm N$"></pl-number-input>
+</p>
+
+
+<p>Direction:</p>
+<p>
+<pl-multiple-choice answers-name="part2_ans" weight = "1" >
+	<pl-answer correct = {{ params.part2.ans1.correct }} feedback = '{{ params.part2.ans1.feedback }}' > {{ params.part2.ans1.value }}  </pl-answer>
+	<pl-answer correct = {{ params.part2.ans2.correct }} feedback = '{{ params.part2.ans2.feedback }}' > {{ params.part2.ans2.value }}  </pl-answer>
+	<pl-answer correct = {{ params.part2.ans3.correct }} feedback = '{{ params.part2.ans3.feedback }}' > {{ params.part2.ans3.value }}  </pl-answer>
+</pl-multiple-choice>
+<p>
+
+
+<pl-question-panel>
+    <hr />
+    <p class="small text-muted">
+    Problem is from the <a href="https://www.prairielearn.com/oer">PrairieLearn OER repository</a>, adapted from the <a href="https://openstax.org/details/books/university-physics-volume-2">OpenStax University Physics Volume 2</a> and the
+	<a href="https://firas.moosvi.com/oer/physics_bank/files/bio.html">Open Problem Bank in Physics</a>, licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>.
+    </p>
+</pl-question-panel>
