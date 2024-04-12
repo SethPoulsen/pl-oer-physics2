@@ -15,7 +15,7 @@ def generate(data):
     data["params"]["pA"] = pA
     data["params"]["pP"] = pP
     data["params"]["pM"] = pM
-    data["params"]["d"] = str(d) + " cm"
+    data["params"]["d"] = str(d) + " \, cm"
 
     # point to find the potential
     p_pos = random.choice([0, 1])  # 0: point in x-axis; 1: point in y-axis
