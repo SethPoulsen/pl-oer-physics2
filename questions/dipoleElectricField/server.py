@@ -27,9 +27,9 @@ def generate(data):
     data["params"]["E"] = E
     E = E * 1e3  # in N/C
 
-    q = random.randint(1, 8)  # in *1e-19 C
+    q = random.randint(4, 10)  # in *1e-19 C
     data["params"]["q"] = q
-    q = q * 1e-19  # in C
+    q = 1.6* q * 1e-19  # in C
 
     d = round(random.randint(100, 500) / 100, 2)  # in nm
     data["params"]["d"] = d
