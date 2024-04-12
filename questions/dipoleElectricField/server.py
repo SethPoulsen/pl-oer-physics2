@@ -31,7 +31,7 @@ def generate(data):
     data["params"]["q"] = 1.6*q
     q = 1.6* q * 1e-19  # in C
 
-    d = round(random.randint(100, 500) / 100, 2)  # in nm
+    d = random.randint(1,5)  # in nm
     data["params"]["d"] = d
     d = d * 1e-9  # in m
 
