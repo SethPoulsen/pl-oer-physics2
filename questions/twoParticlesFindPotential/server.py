@@ -43,11 +43,11 @@ def generate(data):
 
     # # Compute the solution
     q1 = random.randint(2, 6)
-    data["params"]["q1"] = f"{q1}\\\mu F"
+    data["params"]["q1"] = f"{q1} \\\mu F"
     q1 = q1 * 1e-3  # C
 
     q2 = -random.randint(7, 14)
-    data["params"]["q2"] = f"{q2}\\\mu F"
+    data["params"]["q2"] = f"{q2} \\\mu F"
     q2 = q2 * 1e-3  # C
 
     e0 = 8.85e-12
