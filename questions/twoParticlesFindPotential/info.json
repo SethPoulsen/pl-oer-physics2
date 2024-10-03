@@ -6,5 +6,6 @@
     "license:CC-BY-NC",
     "author:prairielearn.com"
   ],
-  "type": "v3"
+  "type": "v3",
+  "sharedPublicly": true
 }

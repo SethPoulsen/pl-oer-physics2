@@ -7,5 +7,6 @@
     "author:jake.bobowski@ubc.ca",
     "not-randomized"
   ],
-  "type": "v3"
+  "type": "v3",
+  "sharedPublicly": true
 }
